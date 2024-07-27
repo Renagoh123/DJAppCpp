@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="TFXijM" name="DJ_application" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="iJaxAw" name="DJ_application">
+    <GROUP id="{DEB895C5-0EBE-3573-A372-56F61BC7B435}" name="Source">
+      <FILE id="HoXrXG" name="SamplerInstrumentsComponent.cpp" compile="1"
+            resource="0" file="Source/SamplerInstrumentsComponent.cpp"/>
+      <FILE id="UVDcUD" name="SamplerInstrumentsComponent.h" compile="0"
+            resource="0" file="Source/SamplerInstrumentsComponent.h"/>
+      <FILE id="HgydQ1" name="OtherLookAndFeel.cpp" compile="1" resource="0"
+            file="Source/OtherLookAndFeel.cpp"/>
+      <FILE id="vv5q5W" name="OtherLookAndFeel.h" compile="0" resource="0"
+            file="Source/OtherLookAndFeel.h"/>
+      <FILE id="Q6Jw9a" name="Track.cpp" compile="1" resource="0" file="Source/Track.cpp"/>
+      <FILE id="IlGpI5" name="Track.h" compile="0" resource="0" file="Source/Track.h"/>
+      <FILE id="qpKFSy" name="PlaylistComponent.cpp" compile="1" resource="0"
+            file="Source/PlaylistComponent.cpp"/>
+      <FILE id="bN0l9w" name="PlaylistComponent.h" compile="0" resource="0"
+            file="Source/PlaylistComponent.h"/>
+      <FILE id="ZNM1B3" name="WaveformDisplay.cpp" compile="1" resource="0"
+            file="Source/WaveformDisplay.cpp"/>
+      <FILE id="F57AVg" name="WaveformDisplay.h" compile="0" resource="0"
+            file="Source/WaveformDisplay.h"/>
+      <FILE id="cnqR12" name="DJAudioPlayer.cpp" compile="1" resource="0"
+            file="Source/DJAudioPlayer.cpp"/>
+      <FILE id="RKYgJV" name="DJAudioPlayer.h" compile="0" resource="0" file="Source/DJAudioPlayer.h"/>
+      <FILE id="s29N6m" name="DeckGUI.cpp" compile="1" resource="0" file="Source/DeckGUI.cpp"/>
+      <FILE id="kDiIgw" name="DeckGUI.h" compile="0" resource="0" file="Source/DeckGUI.h"/>
+      <FILE id="I74Tja" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"
+            skipPCH="0"/>
+      <FILE id="Qn0Thd" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="ArPzNR" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="DJ_application"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="DJ_application"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../juce-7.0.5-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="DJ_application"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="DJ_application"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../juce-7.0.5-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="DJ_application"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="DJ_application"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../juce-7.0.5-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../juce-7.0.5-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+</JUCERPROJECT>
