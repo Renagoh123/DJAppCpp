@@ -1,6 +1,4 @@
 # DJAppC++
-
-## Description
 DJAppC++ is an object-oriented DJ application developed in C++ using the JUCE toolkit. The application provides basic DJ functionalities such as loading, playing, and mixing tracks. Additionally, it features a sampler instrument component inspired by VirtualDJ.
 
 ## Features
