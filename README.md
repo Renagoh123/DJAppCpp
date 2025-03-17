@@ -23,7 +23,7 @@ For more information on the JUCE library and its methods, refer to the [JUCE Doc
 
 Enjoy mixing with DJAppC++!
 
-![Screenshot of the Mario Game](https://github.com/Renagoh123/DJAppCpp/blob/87e55bf018a2aabd8a1011ed40dd54def0c50db0/Assets/djapp.png)
+![Screenshot of the DJ App](https://github.com/Renagoh123/DJAppCpp/blob/87e55bf018a2aabd8a1011ed40dd54def0c50db0/Assets/djapp.png)
 
 ## Demo Video
 [Watch the demo video](https://youtu.be/sfwJyakl7Ro)
